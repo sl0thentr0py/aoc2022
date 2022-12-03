@@ -3,7 +3,7 @@ input:read0 `:../files/03.input
 /=========================================
 
 sacks:{(x-96) mod 58} `int $ input
-p1:sum ({first .[inter;2 0N#x]}') sacks
+p1:sum ({first (inter/) 2 0N#x}') sacks
 p2:sum ({first (inter/) x}') 0N 3#sacks
 
 /=========================================
