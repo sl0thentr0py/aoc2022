@@ -1,4 +1,3 @@
-require 'debug'
 n = "05"
 input = File.read("#{__dir__}/../files/#{n}.input")
 
